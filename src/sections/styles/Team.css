@@ -1,0 +1,58 @@
+
+
+.team .row  .streched-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--border-radius-size);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.team .row .team-card-content {
+    background-color: var(--accent-color);
+    padding: 20px;
+    border-radius: var(--border-radius-size);
+    text-align: center;
+    margin-top: -50px;
+    margin-inline: 15px;
+    position: relative;
+    z-index: 3;
+}
+
+.team .row .team-card-content .team-title {
+    color: var(--white);
+    font-weight: 600;
+    margin-top: 0;
+}
+.team .row .team-card-content .team-text{
+    color: var(--white);
+    margin-bottom: 0;
+}
+
+.team .row .social-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.team .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: var(--heading-color);
+    /* background-color: var(--accent-color); */
+    border: 1px solid var(--heading-color);
+    margin-right: 10px;
+    transition: 0.3s;
+  }
+  
+  .team .social-links a:hover {
+    color: var(--white);
+    background-color: color-mix(in srgb, var(--heading-color), transparent 0%);
+  }

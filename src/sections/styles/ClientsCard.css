@@ -1,0 +1,15 @@
+.clients-card {
+    background-color: color-mix(in srgb, var(--background-color) , black 4%);
+    padding-block: 30px 60px;
+  }
+
+  .clients-card .clients img {
+    width: 100%;
+    max-height: 200px;
+    filter: grayscale();
+    transition:  0.4s;
+  }
+
+  .clients-card .clients img:hover {
+    filter: none;
+  }

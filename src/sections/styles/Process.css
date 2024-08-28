@@ -1,0 +1,60 @@
+.process {
+    background-color: color-mix(in srgb, var(--background-color) , black 4%);
+    padding-top:223px;
+    background-image: url('arrow.svg');
+    background-position: center 90%;
+    background-repeat: no-repeat;
+}
+
+.process .row {
+    min-height: 320px;
+}
+
+.process .process-circle {
+    background-color: var(--background-color);
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    padding: 70px 20px;
+    text-align: center;
+    border: 6px solid color-mix(in srgb, var(--heading-color) , transparent 85%);
+    outline: 20px solid var(--background-color);
+    position: relative;
+}
+
+.process .process-circle::after {
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    width: 72px;
+    height: 72px;
+    background: var(--accent-color);
+    color: var(--background-color);
+    border-radius: 50%;
+    top: -10px;
+    right: 0;
+}
+
+.process .row .col-lg-4 .first::after {
+    content: '01';
+  }
+  
+  .process .row .col-lg-4 .second::after {
+    content: '02';
+  }
+  
+  .process .row .col-lg-4 .third::after {
+    content: '03';
+  }
+
+.process .process-circle h5 {
+    font-weight: 700;
+    font-size: 22px;
+}
+.process .process-circle p {
+    font-size: 14px;
+}

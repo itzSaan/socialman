@@ -1,0 +1,133 @@
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services {
+  background-color: color-mix(in srgb, var(--background-color), #292929 100%);
+  color: var(--contrast-color);
+  background-image: url("src/assets/img/world-map.svg");
+  background-position: center center;
+  background-size: cover;
+  overflow: visible;
+}
+
+.services h1 {
+  color: var(--white);
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services ul li i {
+  color: var(--accent-color);
+  font-size: 20px;
+}
+
+.services .service-btn {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+.services .service-btn:hover {
+  background: transparent;
+}
+
+.services .card-item {
+  background: color-mix(in srgb, var(--black), transparent 40%);
+  color: var(--contrast-color);
+  padding: 30px;
+  text-align: center;
+  border-radius: 24px;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.services .card-item::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: #30303050;
+  transform: translate(-50%, -50%);
+  top: 1%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.services .card-item span {
+  color: var(--accent-color);
+  display: block;
+  font-size: 72px;
+  font-weight: 700;
+  z-index: 3;
+  position: relative;
+}
+
+.services .card-item h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.services .card-item h4 a {
+  color: var(--contrast-color);
+}
+
+.services .card-item p {
+  font-size: 15px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  margin: 0;
+  padding: 0;
+}
+
+.services .card-item:hover {
+  background: var(--accent-color);
+  padding: 20px 30px 40px 30px;
+}
+
+.services .card-item:hover span,
+.services .card-item:hover h4 a,
+.services .card-item:hover p {
+  color: var(--contrast-color);
+}
+
+.services .appointment-card {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 40px;
+  border-radius: var(--border-radius-size);
+  position: relative;
+  margin: 50px auto -174px auto;
+  z-index: 99;
+}
+
+@media  screen  and (max-width : 992px) {
+  .services .appointment-card {
+    margin: 50px auto -236px auto;
+  }
+}
+/* .services .appointment-card .appointment-contact {
+  
+} */
+.services .appointment-card .appointment-contact p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.services .appointment-card .appointment-contact h4 {
+  font-family: var(--heading-font);
+  font-weight: 800;
+  color: var(--white);
+  font-size: 36px;
+}
+.services .appointment-card .appointment-btn {
+  background-color: var(--white);
+  color: var(--heading-color);
+  border: 2px solid var(--contrast-color);
+}
+.services .appointment-card .appointment-btn:hover {
+  background-color: transparent;
+  color: var(--contrast-color);
+}

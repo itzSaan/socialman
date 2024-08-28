@@ -1,0 +1,73 @@
+.goal {
+    background-color: color-mix(in srgb, var(--background-color), #292929 100%);
+    color: var(--contrast-color);
+    background-image: url('src/assets/img/world-map.svg');
+    background-position: center center;
+    padding: 20px 0;
+    margin-block: 0 100px;
+    overflow-y: visible;
+}
+
+.goal .section-title {
+    padding-bottom: 0;
+}
+
+.goal .section-title .circle {
+    background: color-mix(in srgb, var(--accent-color) , transparent 70%);
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 50%;
+    outline: 6px dotted color-mix(in srgb, var(--accent-color) , transparent 70%);
+    outline-offset: 50px;
+    position: relative;
+}
+
+.goal .section-title .circle::after, .goal .section-title .circle::before {
+    content: '';
+    position: absolute;
+}
+
+.goal .section-title .circle::after {
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50%;
+    outline: 15px dotted color-mix(in srgb, var(--accent-color) , transparent 70%);
+    outline-offset: 10px;
+}
+
+.goal .section-title .circle::before {
+    left: -25px;
+    top: -25px;
+    bottom: -25px;
+    right: -25px;
+    border-radius: 50%;
+    outline: 10px dotted color-mix(in srgb, var(--accent-color) , transparent 70%);
+    outline-offset: 5px;
+}
+
+.goal .section-title h1 {
+    color: var(--background-color);    
+}
+
+.goal .card-item svg {
+    padding: 25px;
+}
+@media (max-width: 576px) {
+    .goal .card-item svg {
+        padding: 10px;
+    }
+   
+}
+.goal .card-item h4 a {
+    margin-top: 15px;
+    color: var(--contrast-color);
+    font-weight: 700;
+}
+.goal .card-item p {
+    color: color-mix(in srgb, var(--contrast-color) , transparent 50%);
+    font-size: 14px;
+}

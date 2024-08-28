@@ -1,0 +1,12 @@
+.portfolio .row  a {
+    overflow: hidden;
+}
+
+.portfolio .row a:hover img {
+    transform: scale(1.05);
+}
+
+.portfolio a img {
+    border-radius: var(--border-radius-size);
+    transition: 0.5 ease-in-out;
+}

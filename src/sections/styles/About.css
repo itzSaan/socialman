@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about {
+    background: url("../img/about-bg.jpg") center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 84px;
+  }
+  
+  .about:before {
+    content: "";
+    background: color-mix(in srgb, var(--contrast-color), transparent 12%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .about .container {
+    position: relative;
+  }
+  
+  .about .content h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+  
+  .about .content .fst-italic {
+    color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+  }
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li {
+    padding: 10px 0 0 0;
+    display: flex;
+  }
+  
+  .about .content ul i {
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+    line-height: 1.2;
+    font-size: 1.25rem;
+  }
+  
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about .about-img {
+    border: 6px solid color-mix(in srgb, var(--default-color), transparent 80%);
+    transition: 0.3s;
+  }
+  
+  .about .about-img:hover {
+    transform: scale(1.03);
+  }
+  
+  .about .about-btn {
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+  }
+  .about .about-btn:hover {
+    background: transparent;
+    color: var(--default-color);
+  }
+  .about .clients {
+    background-color: color-mix(in srgb, var(--background-color) , black 4%);
+  }
+
+  .about .clients img {
+    width: 100%;
+    max-height: 200px;
+    filter: grayscale();
+    transition:  0.4s;
+  }
+
+  .about .clients img:hover {
+    filter: none;
+  }
