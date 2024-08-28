@@ -13,7 +13,7 @@ const ContactPage = () => {
       <div
         className="page-title position-relative"
         data-aos="fade"
-        style={{ backgroundImage: "url('src/assets/img/hero-bg.jpg')" }}
+        style={{ backgroundImage: "url('/src/assets/img/hero-bg.jpg')" }}
       >
         <div className="container position-relative">
           <h1>

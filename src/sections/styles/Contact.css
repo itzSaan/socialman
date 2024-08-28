@@ -4,7 +4,7 @@
 .contact {
     background-color: color-mix(in srgb, var(--background-color) 90%, white 5%);
     border-bottom: 1px solid color-mix(in srgb, var(--accent-color), transparent 90%);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.882), rgba(255, 255, 255, 0.877)), url('src/assets/img/contact-bg2.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.882), rgba(255, 255, 255, 0.877)), url('/src/assets/img/contact-bg2.jpg');
     background-position: center center;
     background-size: cover;
     position: relative;

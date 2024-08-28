@@ -1,7 +1,7 @@
 .process {
     background-color: color-mix(in srgb, var(--background-color) , black 4%);
     padding-top:223px;
-    background-image: url('arrow.svg');
+    background-image: url('/public/arrow.svg');
     background-position: center 90%;
     background-repeat: no-repeat;
 }
