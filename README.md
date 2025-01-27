@@ -21,7 +21,7 @@ SocialMan is a comprehensive digital solution provider offering expert services 
 To get started with SocialMan, follow these steps:
 
 1. **Visit the Website**: Head over to [https://www.socialman.com](https://www.socialman.co.in).
-2. **Contact Us**: Use the contact form to discuss your needs with us or send us an email at info@socialman.com.
+2. **Contact Us**: Use the contact form to discuss your needs with us or send us an email at hello.socialman@gmail.com.
 3. **Subscribe to Our Newsletter**: Stay updated on the latest digital marketing tips, trends, and exclusive offers.
 4. **Sign Up for Services**: Explore our packages and choose the one that suits your business needs.
 
