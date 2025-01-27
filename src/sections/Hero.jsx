@@ -16,7 +16,7 @@ const Hero = () => {
             <p data-aos="fade-up" data-aos-delay="200">
             Your Partner in Social Media Success</p>
             <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-              <NavLink to="/portfolio" className="my-btn my-btn-lg cta-btn">Our Portfolio</NavLink>
+              <NavLink to="/services" className="my-btn my-btn-lg cta-btn">Our Services</NavLink>
               <NavLink to="/contact" className="my-btn my-btn-lg cta-btn">Get a Quote</NavLink>
             </div>
           </div>

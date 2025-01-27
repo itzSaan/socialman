@@ -42,7 +42,7 @@ const Services = () => {
               </li>
             </ul>
 
-            <div className="d-flex justify-content-between align-items-center mt-4">
+            {/* <div className="d-flex justify-content-between align-items-center mt-4">
               <div className="d-flex align-items-center gap-2 border-end pe-lg-5 pe-3 border-secondary">
                 <div className="col">
                   <img
@@ -62,7 +62,8 @@ const Services = () => {
                   More Services
                 </NavLink>
               </div>
-            </div>
+            </div> */}
+
           </div>
 
           <div className="col-lg-6 ms-auto">
@@ -98,7 +99,7 @@ const Services = () => {
                   </span>
                   <h4>
                     <a href="" className="stretched-link">
-                      Influencer Marketing
+                      Website Development and Design
                     </a>
                   </h4>
                 </div>
@@ -111,7 +112,7 @@ const Services = () => {
                   </span>
                   <h4>
                     <a href="" className="stretched-link">
-                      Analytics and Reporting
+                      Digital Marketing and SEO
                     </a>
                   </h4>
                 </div>

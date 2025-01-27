@@ -22,11 +22,11 @@ const HomePage = () => {
       <About />
       <ClientsCard />
       <Goal />
-      <Portfolio />
-      <Team />
+      {/* <Portfolio /> */}
+      {/* <Team /> */}
+      <Blog />
       <Reviews />
       <Contact />
-      <Blog />
       <Subscribe />
     </>
   )

@@ -16,15 +16,15 @@ const Header = () => {
     <div className="topbar d-flex align-items-center">
       <div className="container d-flex justify-content-center justify-content-md-between">
         <div className="contact-info d-flex align-items-center">
-          <i className="bi bi-envelope d-flex align-items-center"><a to="mailto:contact@example.com">contact@socialman.co.in</a></i>
+          <i className="bi bi-envelope d-flex align-items-center"><a to="mailto:contact@example.com">hello.socialman@gmail.com</a></i>
           <i className="bi bi-phone d-flex align-items-center ms-4"><span>+91 90408 14214</span></i>
         </div>
         <div className="social-links d-none d-md-flex align-items-center">
           <ul>
-            <li><a to=""><i className="bi bi-facebook"></i></a></li>
-            <li><a to=""><i className="bi bi-twitter"></i></a></li>
-            <li><a to=""><i className="bi bi-instagram"></i></a></li>
-            <li><a to=""><i className="bi bi-google"></i></a></li>
+            <li><a to="https://facebook.com/msocialman/"><i className="bi bi-facebook"></i></a></li>
+            <li><a to="https://x.com/socialman.officail/"><i className="bi bi-twitter"></i></a></li>
+            <li><a to="https://instagram.com/socialman.officail/"><i className="bi bi-instagram"></i></a></li>
+            <li><a to="https://linkedin.com/in/socialman.officail/"><i className="bi bi-linkedin"></i></a></li>
           </ul>
         </div>
       </div>

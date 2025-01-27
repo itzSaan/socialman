@@ -30,8 +30,8 @@ const ContactPage = () => {
               <span>Contact </span> & Join Together
             </h1>
             <p className="mt-4 mx-auto">
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in
+            We are here to bring your vision to life through expert digital marketing solutions.<br/> 
+            Get in touch with us today and let’s grow your brand together!
             </p>
           </div>
 
@@ -46,7 +46,7 @@ const ContactPage = () => {
               <div>
                 <h6 className="m-0">Location</h6>
                 <h4 className="m-0">Visit Us At</h4>
-                <p className="small mb-0">Nayapalli, BBSR, OD-751015</p>
+                <p className="small mb-0">Mancheswar, BBSR, OD-751010</p>
               </div>
             </div>
             <div
@@ -72,9 +72,10 @@ const ContactPage = () => {
               <div>
                 <h6 className="m-0">Drop A Line</h6>
                 <h4 className="m-0">Mail Address</h4>
-                <p className="small mb-0">hello@socialman.co.in</p>
+                <p className="small mb-0">hello.socialman@gmail.com</p>
               </div>
             </div>
+{/*             
             <div
               style={cardStyle}
               className="col about-card shadow d-flex align-items-center gap-2  p-3"
@@ -89,7 +90,7 @@ const ContactPage = () => {
                   Mon - Fri : 9am - 6pm <br /> Sunday(Closed)
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -110,7 +111,7 @@ const ContactPage = () => {
                 <span className="material-symbols-outlined">location_on</span>
                 <div>
                   <h3>Location</h3>
-                  <p>N6, Nayapalli, BBSR, OD, IND 751015</p>
+                  <p>Mancheswar, BBSR, OD, IND 751010</p>
                 </div>
               </div>
 
@@ -134,7 +135,7 @@ const ContactPage = () => {
                 <span className="material-symbols-outlined">mail</span>
                 <div>
                   <h3>Email Us</h3>
-                  <p>contact@socialman.co.in</p>
+                  <p>hello.socialman@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -149,8 +150,7 @@ const ContactPage = () => {
               >
                 <h2 className="text-center fw-bolder">Get in Touch</h2>
                 <p className="text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                  magni
+                  Get in touch with us today and let’s grow your brand together!
                 </p>
                 <div className="row gy-4">
                   <div className="col-md-12">
@@ -205,7 +205,7 @@ const ContactPage = () => {
       <div className="m-0">
         <iframe
           style={{ border: 0, width: "100%", height: "400px" }}
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29931.58332483462!2d85.82665975374623!3d20.323106638290557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19099ba6ca97f3%3A0x1a71a53d39591cca!2sMancheswar%2C%20Bhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1737835853527!5m2!1sen!2sin"
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

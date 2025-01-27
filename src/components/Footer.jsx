@@ -81,7 +81,7 @@ const Footer = () => {
             <ul>
               <li>
                 <span className="material-symbols-outlined">location_on</span>
-                <p>N6, Nayapalli, Bhubaneswar, OD - 751015</p>
+                <p>Mancheswar, Bhubaneswar, OD - 751010</p>
               </li>
               <li>
                 <span className="material-symbols-outlined">phone</span>
@@ -89,7 +89,7 @@ const Footer = () => {
               </li>
               <li>
                 <span className="material-symbols-outlined">mail</span>
-                <p>contact@socialman.co.in</p>
+                <p>hello.socialman@gmail.com</p>
               </li>
             </ul>
             {/* <form action="forms/newsletter.php" method="post" className="php-email-form">
@@ -112,7 +112,7 @@ const Footer = () => {
           <span>All Rights Reserved</span>
         </p>
         <div className="credits">
-          Designed by <a href="https://cybruxlabs.com/">Cybrux Labs</a>
+          Designed by <a href="https://wise-tech.in/">wisetech</a>
         </div>
       </div>
     </footer>

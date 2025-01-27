@@ -77,7 +77,7 @@ const Contact = () => {
       <img className='contact-img' src={contactImg} alt="" />
 
       {/* card container */}
-      <div className="container row gy-2 achievement-card" data-aos="fade-up">
+      {/* <div className="container row gy-2 achievement-card" data-aos="fade-up">
 
           <div className="col-lg-3 col-sm-6 col-auto mx-auto text-center d-flex flex-column align-items-center border-lg-end border-md-">
             <span className="material-symbols-outlined mb-3">fact_check</span>
@@ -103,8 +103,7 @@ const Contact = () => {
               <p className="m-0 text-uppercase">Satisfaction Rate</p>
           </div>
           
-
-      </div>
+      </div> */}
       {/* end of card container */}
 
       {/* <div className="mt-5" data-aos="fade-up" data-aos-delay="200">
