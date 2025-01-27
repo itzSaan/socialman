@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/About.css";
-import aboutImg from "../assets/img/about-img.png"
+import aboutImg from "../assets/img/about-img.webp"
 import { NavLink } from "react-router-dom";
 
 

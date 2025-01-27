@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container d-flex justify-content-center justify-content-md-between">
         <div className="contact-info d-flex align-items-center">
           <i className="bi bi-envelope d-flex align-items-center"><a href="mailto:hello.socialman@gmail.com">hello.socialman@gmail.com</a></i>
-          <i className="bi bi-phone d-flex align-items-center ms-4"><span>+91 90408 14214</span></i>
+          <i className="bi bi-phone d-flex align-items-center ms-4"><span>+91 90908 14214</span></i>
         </div>
         <div className="social-links d-none d-md-flex align-items-center">
           <ul>
@@ -34,7 +34,6 @@ const Header = () => {
 
       <div className="container position-relative d-flex align-items-center justify-content-between">
         <Link to="/" className="logo d-flex align-items-center me-auto me-xl-0">
-          {/* <img src={Logo} alt=""/> */}
           <h1 className="sitename">SocialMan</h1>
         </Link>
 

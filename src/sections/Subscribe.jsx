@@ -14,9 +14,7 @@ const Subscribe = () => {
             </div>
             <div className="col-lg-6">
               <p className="mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Similique qui quasi quaerat accusamus deleniti consectetur
-                voluptatum id aliquid neque fugit! 
+              Stay ahead of the game! Subscribe to our newsletter for the latest digital marketing tips, trends, and exclusive updates straight to your inbox.
               </p>
               <form
                 action="forms/newsletter.php"
@@ -27,11 +25,11 @@ const Subscribe = () => {
                   <input className="w-100" type="email" name="email" placeholder="Your Email" />
                   <input className="my-btn my-btn-lg" type="submit" value="Subscribe" />
                 </div>
-                <div className="loading">Loading</div>
+                {/* <div className="loading">Loading</div>
                 <div className="error-message"></div>
                 <div className="sent-message">
                   Your subscription request has been sent. Thank you!
-                </div>
+                </div> */}
               </form>
             
           </div>

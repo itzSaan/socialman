@@ -12,9 +12,7 @@ const Footer = () => {
             </a>
             <div className="footer-contact">
               <p className="w-75">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                veniam sint quae voluptate asperiores expedita natus cumque
-                obcaecati fugit. At.
+              Empowering your brand with expert digital solutions in social media, web development, content creation, and design.
               </p>
             </div>
             <div className="social-links d-flex mt-4">

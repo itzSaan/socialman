@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero section">
 
-      <img src={heroImage} alt="" data-aos="fade-in"/>
+      <img src={heroImage} alt="hero-image" fetchpriority='high' data-aos="fade-in"/>
 
       <div className="container">
         <div className="row">

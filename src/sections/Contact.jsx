@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import './styles/Contact.css'
 import contactImg from "../assets/img/business-woman.png"
 
@@ -18,7 +18,7 @@ const Contact = () => {
               <span className="material-symbols-outlined">location_on</span>
               <div>
                 <h3>Location</h3>
-                <p>N6, Nayapalli, BBSR, OD, IND 751015</p>
+                <p>Mancheswar, BBSR, OD, IND 751010</p>
               </div>
             </div>
 
@@ -26,7 +26,7 @@ const Contact = () => {
              <span className="material-symbols-outlined">phone</span>
               <div>
                 <h3>Call Us</h3>
-                <p>+91 90408 14214</p>
+                <p>+91 90908 14214</p>
               </div>
             </div>
 
@@ -34,34 +34,34 @@ const Contact = () => {
               <span className="material-symbols-outlined">mail</span>
               <div>
                 <h3>Email Us</h3>
-                <p>contact@socialman.co.in</p>
+                <p>hello.socialman@gmail.com</p>
               </div>
             </div>
 
           </div>
 
           <div className="col-lg-4 ms-auto">
-            <form action="forms/contact.php" method="post" className="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="" method="post" className="php-email-form" data-aos="fade-up" data-aos-delay="200">
             <h2 className='text-center fw-bolder'>Get in Touch</h2>
-            <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum magni</p>
+            <p className='text-center'>Feel free to contact & Reach us !!</p>
               <div className="row gy-4">
 
                 <div className="col-md-12">
-                  <input type="text" name="name" className="form-control" placeholder="Your Name" required=""/>
+                  <input type="text" name="name" className="form-control" placeholder="Your Name" required/>
                 </div>
 
                 <div className="col-md-12 ">
-                  <input type="email" className="form-control" name="email" placeholder="Your Email" required=""/>
+                  <input type="email" className="form-control" name="email" placeholder="Your Email" required/>
                 </div>
 
                 <div className="col-md-12">
-                  <textarea className="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  <textarea className="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
 
                 <div className="col-md-12 text-center">
-                  <div className="loading">Loading</div>
+                  {/* <div className="loading">Loading</div>
                   <div className="error-message"></div>
-                  <div className="sent-message">Your message has been sent. Thank you!</div>
+                  <div className="sent-message">Your message has been sent. Thank you!</div> */}
 
                   <button className='my-btn my-btn-lg' type="submit">Send Message</button>
                 </div>
