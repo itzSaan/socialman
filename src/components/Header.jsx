@@ -21,10 +21,10 @@ const Header = () => {
         </div>
         <div className="social-links d-none d-md-flex align-items-center">
           <ul>
-            <li><a to="https://facebook.com/msocialman/"><i className="bi bi-facebook"></i></a></li>
-            <li><a to="https://x.com/socialman.officail/"><i className="bi bi-twitter"></i></a></li>
-            <li><a to="https://instagram.com/socialman.officail/"><i className="bi bi-instagram"></i></a></li>
-            <li><a to="https://linkedin.com/in/socialman.officail/"><i className="bi bi-linkedin"></i></a></li>
+            <li><a href="https://facebook.com/msocialman/"><i className="bi bi-facebook"></i></a></li>
+            <li><a href="https://x.com/socialman.officail/"><i className="bi bi-twitter"></i></a></li>
+            <li><a href="https://instagram.com/socialman.officail/"><i className="bi bi-instagram"></i></a></li>
+            <li><a href="https://linkedin.com/in/socialman.officail/"><i className="bi bi-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
