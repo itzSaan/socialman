@@ -33,7 +33,8 @@ const Reviews = () => {
               <div className='review-wrap'>
              <p>
                 <i className=" bi bi-quote quote-icon-left"></i>
-              <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+              <span><b>Excellent Service!</b> 
+              SocialMan transformed our online presence with their expert social media management and web design. Highly recommended!</span>
               <i className="bi bi-quote quote-icon-right"></i>
               </p>
               <hr/>
@@ -47,7 +48,8 @@ const Reviews = () => {
               <div className='review-wrap'>
               <p>
                 <i className="bi bi-quote quote-icon-left"></i>
-                <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                <span><b>Results-Driven Team!</b>
+                The team at SocialMan helped us boost engagement and sales with tailored digital strategies. Their work speaks for itself!</span>
                 <i className="bi bi-quote quote-icon-right"></i>
               </p>
               <hr/>
@@ -61,7 +63,8 @@ const Reviews = () => {
               <div className='review-wrap'>
               <p>
                 <i className="bi bi-quote quote-icon-left"></i>
-                <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                <span><b>Top-notch Quality!</b>
+                From website development to content creation, SocialMan delivers exceptional quality. Our brand has never looked better online!</span>
                 <i className="bi bi-quote quote-icon-right"></i>
               </p>
               <hr/>

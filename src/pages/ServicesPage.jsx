@@ -73,7 +73,7 @@ const ServicesPage = () => {
             <span className="material-symbols-outlined fs-2 p-3 border border-2 rounded-pill">phone_in_talk</span>
             <div className="appointment-contact">
               <p className="m-0 text-uppercase">Get a Free Consultation</p>
-              <h4 className="mb-0">+919040814214</h4>
+              <h4 className="mb-0">+919090814214</h4>
             </div>
           </div>
           <div className="col-lg-5 col-sm-12 me-auto">

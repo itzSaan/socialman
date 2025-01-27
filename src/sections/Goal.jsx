@@ -9,17 +9,17 @@ const Goal = () => {
     const goalData = [
         {
             gName: 'Marketing',
-            gText: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            gText: 'We craft impactful digital marketing strategies that boost engagement and brand visibility.',
             gPercentage: 95,
         },
         {
             gName: 'Solution',
-            gText: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            gText: 'Our tailored solutions solve business challenges with effective, scalable results.',
             gPercentage: 85,
         },
         {
             gName: 'Success',
-            gText: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            gText: 'With a proven track record, we consistently deliver high success rates for business growth.',
             gPercentage: 90,
         }
     ]
@@ -69,8 +69,7 @@ const Goal = () => {
               <span>Mission </span> We Aim for You!
             </h1>
             <p className="mt-4">
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderi
+            We aim to be at the forefront of digital innovation, consistently adapting to the evolving needs of businesses and empowering them to succeed in the dynamic online world.
             </p>
             </div>
           </div>

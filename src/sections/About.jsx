@@ -30,20 +30,19 @@ const About = () => {
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
                 <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Expert in social media management, website development, and digital marketing.
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
                 <span>
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                Tailored strategies to enhance your brand's online presence.
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
                 <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor
+                Creative solutions that drive business growth and measurable results.
                 </span>
               </li>
             </ul>

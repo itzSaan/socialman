@@ -39,7 +39,7 @@ const AboutUsPage = () => {
                     </span>
                 <div>
                 <h4 className='m-0'>Best Price Guaranteed</h4>
-                <p className='small mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aut.</p>
+                <p className='small mb-0'>We offer the best value for your digital solutions, ensuring top-quality services at unbeatable prices. If you find a better deal, we'll match it!</p>
                 </div>
             </div>
             <div style={cardStyle} className="col about-card shadow d-flex align-items-center gap-2  p-3">
@@ -48,7 +48,7 @@ const AboutUsPage = () => {
                     </span>
                 <div>
                 <h4 className='m-0'>Financial Analysis</h4>
-                <p className='small mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aut.</p>
+                <p className='small mb-0'>Our expert financial analysis helps businesses optimize their budgets and maximize returns, ensuring smart, data-driven decisions.</p>
                 </div>
             </div>
             <div style={cardStyle} className="col about-card shadow d-flex align-items-center gap-2  p-3">
@@ -57,7 +57,7 @@ const AboutUsPage = () => {
                     </span>
                 <div>
                 <h4 className='m-0'>Professional Team</h4>
-                <p className='small mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aut.</p>
+                <p className='small mb-0'>Our skilled and experienced team delivers exceptional results with dedication, creativity, and expertise to drive your business forward.</p>
                 </div>
             </div>
           </div>
