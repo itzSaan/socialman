@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import  {useEffect} from 'react'
 import Process from '../sections/Process'
 
 const services = [
@@ -7,32 +7,32 @@ const services = [
         name: 'Social Media Management',
     },
     {
-        icon: 'patner_exchange',
+        icon: 'edit_square',
         name: 'Content Creation',
     },
     {
-        icon: 'developer_mode',
+        icon: 'campaign',
         name: 'Influence Marketing',
     },
     {
-        icon: 'linked_services',
-        name: 'Analytics and Reporting',
+        icon: 'query_stats',
+        name: 'Socail Media Marketing & SEO',
     },
     {
-        icon: 'monitoring',
-        name: 'Social Media Management',
+        icon: 'developer_mode',
+        name: 'Website Development & Design',
     },
     {
-        icon: 'monitoring',
-        name: 'Social Media Management',
+        icon: 'draw',
+        name: 'Branding & Graphic Design',
     },
     {
-        icon: 'monitoring',
-        name: 'Social Media Management',
+        icon: 'analytics',
+        name: 'Analysis & Reporting',
     },
     {
-        icon: 'monitoring',
-        name: 'Social Media Management',
+        icon: 'phone_android',
+        name: 'Digital Solutions',
     },
 ]
 
@@ -54,10 +54,10 @@ const ServicesPage = () => {
             {services.map((service, id) => (
                 <div className="col-lg-3" key={id} data-aos="fade-up" data-aos-delay={`${(id+1)*100}`}>
                 <div className="card-item">
-                <span className="material-symbols-outlined">monitoring</span>
+                <span className="material-symbols-outlined">{service.icon}</span>
                 <h4>
                     <a href="" className="stretched-link">
-                    Social Media Management
+                    {service.name}
                     </a>
                 </h4>
                 </div>
@@ -78,8 +78,7 @@ const ServicesPage = () => {
           </div>
           <div className="col-lg-5 col-sm-12 me-auto">
             <p className="">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-              sint ut blanditiis inventore veniam est.
+            Have questions? Call us now for a free consultation and start enhancing your online presence today!
             </p>
           </div>
           <div className="col-auto">
