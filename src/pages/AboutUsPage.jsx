@@ -27,8 +27,8 @@ const AboutUsPage = () => {
 
           <div className="col-lg-6 ms-auto">
             <div className="row">
-            <div className="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam explicabo expedita natus optio facere amet, deleniti nihil fuga! Adipisci, laboriosam.</div>
-            <div className="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam explicabo expedita natus optio facere amet, deleniti nihil fuga! Adipisci, laboriosam.</div>
+            <div className="col">Our expert team provides innovative marketing strategies that boost your brand’s online presence, engage your target audience, and deliver measurable growth.</div>
+            <div className="col">With a strong focus on creativity and data-driven insights, we offer a wide range of services, including social media management, SEO, paid advertising, and brand development. </div>
             </div>
           </div>
 

@@ -15,29 +15,25 @@ const Services = () => {
             </h1>
 
             <p className="mt-4">
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident
+            At SocialMan, we drive your business growth through powerful digital marketing strategies, delivering measurable results and impactful engagement. Let your brand’s voice shine with our creative expertise.
             </p>
             <ul>
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
                 <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Strategically managing Facebook, Instagram, and YouTube accounts to grow audience engagement.
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
                 <span>
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                Building user-friendly, SEO-optimized websites that reflect your brand identity.
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
                 <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor
+                Crafting visually appealing logos, banners, and other branding elements.
                 </span>
               </li>
             </ul>

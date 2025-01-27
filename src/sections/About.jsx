@@ -22,9 +22,7 @@ const About = () => {
             </h1>
 
             <p className="mt-4">
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat
+            At SocialMan, we specialize in helping businesses thrive in the ever-evolving digital landscape. Our expert team provides innovative marketing strategies that boost your brand’s online presence, engage your target audience, and deliver measurable growth.
             </p>
             <ul>
               <li>
