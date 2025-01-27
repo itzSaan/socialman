@@ -12,10 +12,10 @@ const Hero = () => {
       <div className="container">
         <div className="row">
           <div className="d-flex flex-column align-items-center">
-            <h2 className='text-center' data-aos="fade-up" data-aos-delay="100">Unlock Your <span>Brand's Potential </span>with Expert Social Media Strategies</h2>
-            <p data-aos="fade-up" data-aos-delay="200">
+            <h2 className='text-center' data-aos="fade-up">Unlock Your <span>Brand's Potential </span>with Expert Social Media Strategies</h2>
+            <p data-aos="fade-up" data-aos-delay="100">
             Your Partner in Social Media Success</p>
-            <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+            <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="200">
               <NavLink to="/services" className="my-btn my-btn-lg cta-btn">Our Services</NavLink>
               <NavLink to="/contact" className="my-btn my-btn-lg cta-btn">Get a Quote</NavLink>
             </div>
