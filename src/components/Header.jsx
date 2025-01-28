@@ -47,7 +47,7 @@ const Header = () => {
               <li><NavLink to="/about" onClick={closeMobileNav}>About</NavLink></li>
               <li><NavLink to="/services" onClick={closeMobileNav}>Services</NavLink></li>
               {/* <li><NavLink to="/portfolio" onClick={closeMobileNav}>Portfolio</NavLink></li> */}
-              <li><NavLink to="/blog" onClick={closeMobileNav}>Blogs</NavLink></li>
+              <li><NavLink to="/blogs" onClick={closeMobileNav}>Blogs</NavLink></li>
               <li><NavLink to="/contact" onClick={closeMobileNav}>Contact</NavLink></li>
             </ul>
             <i 
