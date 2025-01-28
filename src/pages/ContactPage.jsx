@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import "/src/sections/styles/Contact.css";
 import contactImg from "/src/assets/img/business-woman.png";
+import heroBg from '../assets/img/hero-bg.jpg'
 
 const cardStyle = { borderRadius: "30px" };
 
@@ -13,7 +14,7 @@ const ContactPage = () => {
       <div
         className="page-title position-relative"
         data-aos="fade"
-        style={{ backgroundImage: "url('/src/assets/img/hero-bg.jpg')" }}
+        style={{"backgroundImage": `url(${heroBg})`}}
       >
         <div className="container position-relative">
           <h1>

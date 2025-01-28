@@ -1,5 +1,6 @@
 import  {useEffect} from 'react'
 import Process from '../sections/Process'
+import heroBg from '../assets/img/hero-bg.jpg'
 
 const services = [
     {
@@ -42,7 +43,7 @@ const ServicesPage = () => {
   }, [])
   return (
     <>
-    <div className="page-title position-relative" data-aos="fade" style={{"backgroundImage": "url('/src/assets/img/hero-bg.jpg')"}}>
+    <div className="page-title position-relative" data-aos="fade" style={{"backgroundImage": `url(${heroBg})`}}>
       <div className="container position-relative">
         <h1>Services<br/></h1>
       </div>

@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import { Link } from 'react-router-dom';
+import heroBg from '../assets/img/hero-bg.jpg'
 
 const NotFoundPage = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const NotFoundPage = () => {
       <div
         className="page-title position-relative"
         data-aos="fade"
-        style={{ "backgroundImage": "url('/src/assets/img/hero-bg.jpg')" }}
+        style={{"backgroundImage": `url(${heroBg})`}}
       >
         <div className="container position-relative">
           <h1>
