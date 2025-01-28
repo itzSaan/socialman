@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import { Link } from 'react-router-dom';
 
 const NotFoundPage = () => {
   useEffect(() => {
@@ -23,7 +24,7 @@ const NotFoundPage = () => {
           <nav className="breadcrumbs">
             <ol>
               <li>
-                <a href="index.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="current">About Us</li>
             </ol>
