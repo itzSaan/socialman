@@ -22,7 +22,7 @@ function App() {
         <Route path='/portfolio' element={<PortfolioPage />} />
         <Route path='/services' element={<ServicesPage />} />
         <Route path='/blogs' element={<BlogsPage />} >
-          <Route path='/blogs/:id' element={<SingleBlogPage />} >        
+          <Route path='/blogs/:id' element={<SingleBlogPage />} />        
         </Route>
         <Route path='/*' element={<NotFoundPage />} />
       </Route>

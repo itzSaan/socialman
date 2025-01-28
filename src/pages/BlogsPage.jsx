@@ -4,7 +4,7 @@ import heroBg from '../assets/img/hero-bg.jpg'
 
 const BlogsPage = () => {
   return (
-
+<>
     <div className="page-title position-relative" data-aos="fade" style={{"backgroundImage": `url(${heroBg})`}}>
     <div className="container position-relative">
       <h1>Our Blogs <br/></h1>        
