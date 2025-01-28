@@ -17,7 +17,7 @@ const Reviews = () => {
             </div>
 
             <div className="col-lg-6 d-flex justify-content-between align-items-center">
-                <p className='w-75'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi voluptates nihil odio soluta. Maxime, soluta! Dignissimos voluptate quisquam deserunt officia recusandae.</p>
+                <p className='w-75'>We take pride in delivering exceptional services. <br/>See what our clients say about their experience with us!</p>
                 <a href="#" className='my-btn reviews-btn'>View More</a>
             </div>
         </div>
@@ -33,12 +33,12 @@ const Reviews = () => {
               <div className='review-wrap'>
              <p>
                 <i className=" bi bi-quote quote-icon-left"></i>
-              <span><b>Excellent Service!</b> 
+              <span><b>Excellent Service!</b> <br/>
               SocialMan transformed our online presence with their expert social media management and web design. Highly recommended!</span>
               <i className="bi bi-quote quote-icon-right"></i>
               </p>
               <hr/>
-              <h3>Saul Goodman</h3>
+              <h3>Amit Kumar</h3>
               <h4>Ceo &amp; Founder</h4>
               </div>
             </div>
@@ -48,12 +48,12 @@ const Reviews = () => {
               <div className='review-wrap'>
               <p>
                 <i className="bi bi-quote quote-icon-left"></i>
-                <span><b>Results-Driven Team!</b>
+                <span><b>Results-Driven Team!</b><br/>
                 The team at SocialMan helped us boost engagement and sales with tailored digital strategies. Their work speaks for itself!</span>
                 <i className="bi bi-quote quote-icon-right"></i>
               </p>
               <hr/>
-              <h3>Sara Wilsson</h3>
+              <h3>Rakesh Singh</h3>
               <h4>Designer</h4>
               </div>
             </div>
@@ -63,12 +63,12 @@ const Reviews = () => {
               <div className='review-wrap'>
               <p>
                 <i className="bi bi-quote quote-icon-left"></i>
-                <span><b>Top-notch Quality!</b>
+                <span><b>Top-notch Quality!</b><br/>
                 From website development to content creation, SocialMan delivers exceptional quality. Our brand has never looked better online!</span>
                 <i className="bi bi-quote quote-icon-right"></i>
               </p>
               <hr/>
-              <h3>Jena Karlis</h3>
+              <h3>Sanjay S.</h3>
               <h4>Store Owner</h4>
               </div>
             </div>
