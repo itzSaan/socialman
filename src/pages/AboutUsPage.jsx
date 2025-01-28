@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import Team from '../sections/Team'
+import heroBg from '../assets/img/hero-bg.jpg'
 
 const cardStyle = { 'borderRadius': '30px' }
 
@@ -9,7 +10,7 @@ const AboutUsPage = () => {
   }, [])
   return (
     <>
-      <div className="page-title position-relative" data-aos="fade" style={{"backgroundImage": "url('/src/assets/img/hero-bg.jpg')"}}>
+      <div className="page-title position-relative" data-aos="fade" style={{"backgroundImage": `url(${heroBg})`}}>
       <div className="container position-relative">
         <h1>About Us <br/></h1>        
       </div>
