@@ -75,7 +75,7 @@ const AboutUsPage = () => {
 
     </section>
 
-    <Team />
+    {/* <Team /> */}
     </>
   )
 }
