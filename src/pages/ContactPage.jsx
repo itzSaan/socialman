@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import "/src/sections/styles/Contact.css";
 import contactImg from "/src/assets/img/business-woman.png";
 import heroBg from '../assets/img/hero-bg.jpg'
@@ -60,7 +60,7 @@ const ContactPage = () => {
               <div>
                 <h6 className="m-0">Mobile</h6>
                 <h4 className="m-0">Call Us On</h4>
-                <p className="small mb-0">Mob: 9040814214</p>
+                <p className="small mb-0">Mob: 9090814214</p>
               </div>
             </div>
             <div
@@ -124,7 +124,7 @@ const ContactPage = () => {
                 <span className="material-symbols-outlined">phone</span>
                 <div>
                   <h3>Call Us</h3>
-                  <p>+91 90408 14214</p>
+                  <p>+91 90908 14214</p>
                 </div>
               </div>
 
