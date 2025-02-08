@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
 import './App.css'
 import DefaultLayout from './layout/DefaultLayout'
@@ -12,6 +12,7 @@ import SingleBlogPage from './pages/SingleBlogPage'
 import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
+
  
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -21,9 +22,8 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/portfolio' element={<PortfolioPage />} />
         <Route path='/services' element={<ServicesPage />} />
-        <Route path='/blogs' element={<BlogsPage />} >
-          <Route path='/blogs/:id' element={<SingleBlogPage />} />        
-        </Route>
+        <Route path='/blogs' element={<BlogsPage />} />
+        <Route path='/blogs/:id' element={<SingleBlogPage />} />        
         <Route path='/*' element={<NotFoundPage />} />
       </Route>
     )

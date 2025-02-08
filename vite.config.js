@@ -8,5 +8,8 @@ export default defineConfig({
   server: {
     host: true,
     historyApiFallback: true
+  },
+  build: {
+    outDir: 'dist',
   }
 })

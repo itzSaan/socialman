@@ -1,5 +1,5 @@
-import React, {useEffect} from 'react'
-import Team from '../sections/Team'
+import  {useEffect} from 'react'
+// import Team from '../sections/Team'
 import heroBg from '../assets/img/hero-bg.jpg'
 
 const cardStyle = { 'borderRadius': '30px' }
@@ -75,7 +75,7 @@ const AboutUsPage = () => {
 
     </section>
 
-    <Team />
+    {/* <Team /> */}
     </>
   )
 }
