@@ -35,13 +35,13 @@ const Footer = () => {
             <h4>Useful Links</h4>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="#">About us</a>
+                <a href="/about-us">About us</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="/services">Services</a>
               </li>
               <li>
                 <a href="#">Terms of service</a>
@@ -83,7 +83,7 @@ const Footer = () => {
               </li>
               <li>
                 <span className="material-symbols-outlined">phone</span>
-                <p>+91 90408 14214</p>
+                <p>+91 90908 14214</p>
               </li>
               <li>
                 <span className="material-symbols-outlined">mail</span>
