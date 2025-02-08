@@ -37,7 +37,7 @@ const BlogsPage = () => {
                 data-aos-delay={`${post.id * 100}`}
                 key={post.id}
               >
-                <Link to={`/blogs/${post.id}`} className="streched-link">
+                <Link to={`/blogs/${post.title.split(' ').join('-').toLowerCase()}`} className="streched-link">
                   <img src={`/${post.image}`} className="img-fluid" alt="" />
                   <div className="blog-card-content">
                     <h4 className="blog-title">{post.title}</h4>

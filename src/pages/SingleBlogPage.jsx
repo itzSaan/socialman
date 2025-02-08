@@ -7,12 +7,13 @@ import { Link, useParams } from 'react-router-dom';
 
 const SingleBlogPage = () => {
 
-  const postId = useParams().id;
-  const post = blogPosts.filter((post) => post.id == postId);
+  const postUrl = useParams().id;
+  console.log(postUrl)
+  const post = blogPosts.filter((post) => post.title.split(' ').join('-').toLowerCase() == postUrl);
 
   useEffect(() => {
       window.scrollTo(0,0)
-    }, [postId])
+    }, [postUrl])
 
   return (
     <>
@@ -23,13 +24,14 @@ const SingleBlogPage = () => {
             >
               <div className="container position-relative">
                 <h1>
-                  Blog - {post[0].id}
+                  {/* Blog - {post[0].id} */}
                 </h1>
               </div>
       </div>
 
       <div className="container py-5">
       <div className="row">
+        <p className="text-center ">Date: {post[0].date}</p>
                 <h1 className="w-75 fw-bold text-center mx-auto" style={{fontSize: '3rem'}}>
                   {post[0].title}
                 </h1>
@@ -38,22 +40,22 @@ const SingleBlogPage = () => {
         <div className="row p-4">
           <img src={`/${post[0].image}`} alt="postImage" className='img-fluid mx-auto' />
         </div>
-        <div className='row blog-content'>
-          <p>{post[0].content}</p>
+        <div className='row blog-content' dangerouslySetInnerHTML={{__html : post[0].content}}>
+          {/* {post[0].content} */}
         </div>
 
         <div className="row mt-4">
           <h2>Related Blogs</h2>
         </div>
         <div className="row gy-5 gx-5">
-                    {blogPosts.filter(post => post.id !== postId).slice(0,3).map((post) => (
+                    {blogPosts.filter(post => post.title.split(' ').join('-').toLowerCase() !== postUrl).slice(0,3).map((post) => (
                       <div
                         className="col-lg-4 col-sm-6"
                         data-aos="fade-up"
                         data-aos-delay={`${post.id * 100}`}
                         key={post.id}
                       >
-                        <Link to={`/blogs/${post.id}`} className="streched-link">
+                        <Link to={`/blogs/${post.title.split(' ').join('-').toLowerCase()}`} className="streched-link">
                           <img src={`/${post.image}`} className="img-fluid" alt="postImage" />
                           <div className="blog-card-content mt-2">
                             <h4 className="blog-title">{post.title}</h4>
