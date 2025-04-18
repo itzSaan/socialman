@@ -53,27 +53,26 @@
   }
   
   .contact .php-email-form .error-message {
-    display: none;
-    background: #df1529;
+    background: #df153d;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
     padding: 15px;
     margin-bottom: 24px;
     font-weight: 600;
+    transition: ease-in 0.3s;
   }
   
   .contact .php-email-form .sent-message {
-    display: none;
     color: #ffffff;
     background: #059652;
     text-align: center;
     padding: 15px;
     margin-bottom: 24px;
     font-weight: 600;
+    transition: ease-in 0.3s;
   }
   
   .contact .php-email-form .loading {
-    display: none;
     background: var(--background-color);
     text-align: center;
     padding: 15px;

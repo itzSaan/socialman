@@ -1,20 +1,58 @@
-import {useEffect} from "react";
+import { useEffect, useRef, useState } from "react";
 import "/src/sections/styles/Contact.css";
 import contactImg from "/src/assets/img/business-woman.png";
-import heroBg from '../assets/img/hero-bg.jpg'
+import heroBg from "../assets/img/hero-bg.jpg";
+import emailjs from "@emailjs/browser";
 
 const cardStyle = { borderRadius: "30px" };
 
 const ContactPage = () => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [isError, setIsError] = useState(false);
+
   useEffect(() => {
-    window.scrollTo(0,0)
-  }, [])
+    // window.scrollTo(0,0)
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      isSuccess && setIsSuccess(false);
+      isError && setIsError(false);
+    }, 5000)
+  }, [isLoading])
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    setIsLoading(true);
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_bnytnsq", "template_kpdl1ym", form.current, {
+        publicKey: "fgveaITehct9ivUUs",
+      })
+      .then(
+        () => {
+          console.log("Success");
+          setIsLoading(false);
+          setIsSuccess(true);
+          form.current.reset();
+        },
+        (error) => { 
+          console.log("Failed...", error.text);
+          setIsLoading(false);
+          setIsError(true);
+          form.current.reset();
+        },
+      );
+  };
   return (
     <>
       <div
         className="page-title position-relative"
         data-aos="fade"
-        style={{"backgroundImage": `url(${heroBg})`}}
+        style={{ backgroundImage: `url(${heroBg})` }}
       >
         <div className="container position-relative">
           <h1>
@@ -31,8 +69,10 @@ const ContactPage = () => {
               <span>Contact </span> & Join Together
             </h1>
             <p className="mt-4 mx-auto">
-            We are here to bring your vision to life through expert digital marketing solutions.<br/> 
-            Get in touch with us today and let’s grow your brand together!
+              We are here to bring your vision to life through expert digital
+              marketing solutions.
+              <br />
+              Get in touch with us today and let’s grow your brand together!
             </p>
           </div>
 
@@ -76,7 +116,7 @@ const ContactPage = () => {
                 <p className="small mb-0">hello.socialman@gmail.com</p>
               </div>
             </div>
-{/*             
+            {/*             
             <div
               style={cardStyle}
               className="col about-card shadow d-flex align-items-center gap-2  p-3"
@@ -143,7 +183,8 @@ const ContactPage = () => {
 
             <div className="col-lg-4 ms-auto">
               <form
-                action="forms/contact.php"
+                ref={form}
+                onSubmit={sendEmail}
                 method="post"
                 className="php-email-form"
                 data-aos="fade-up"
@@ -160,7 +201,7 @@ const ContactPage = () => {
                       name="name"
                       className="form-control"
                       placeholder="Your Name"
-                      required=""
+                      required
                     />
                   </div>
 
@@ -170,7 +211,7 @@ const ContactPage = () => {
                       className="form-control"
                       name="email"
                       placeholder="Your Email"
-                      required=""
+                      required
                     />
                   </div>
 
@@ -180,16 +221,18 @@ const ContactPage = () => {
                       name="message"
                       rows="6"
                       placeholder="Message"
-                      required=""
+                      required
                     ></textarea>
                   </div>
 
                   <div className="col-md-12 text-center">
-                    <div className="loading">Loading</div>
-                    <div className="error-message"></div>
-                    <div className="sent-message">
+                    {isLoading && <div className="loading">Loading</div>}
+                    {isError && <div className="error-message">
+                      Opps! There is some error, please try again.
+                    </div>}
+                    {isSuccess && <div className="sent-message">
                       Your message has been sent. Thank you!
-                    </div>
+                    </div>}
 
                     <button className="my-btn my-btn-lg" type="submit">
                       Send Message
@@ -201,7 +244,7 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <img className='contact-img' src={contactImg} alt="" />
+        <img className="contact-img" src={contactImg} alt="" />
       </section>
       <div className="m-0">
         <iframe
