@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import "/src/sections/styles/Contact.css";
 import contactImg from "/src/assets/img/business-woman.png";
 import heroBg from "../assets/img/hero-bg.jpg";
-import emailjs from "@emailjs/browser";
 
 const cardStyle = { borderRadius: "30px" };
 

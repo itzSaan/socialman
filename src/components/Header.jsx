@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './styles/Header.css';
 
@@ -22,7 +22,7 @@ const Header = () => {
             <i className="bi bi-envelope d-flex align-items-center">
               <a href="mailto:hello.socialman@gmail.com">hello.socialman@gmail.com</a>
             </i>
-            <i className="bi bi-phone d-flex align-items-center ms-4"><span>+91 90908 14214</span></i>
+            <i className="bi bi-whatsapp d-flex align-items-center ms-4"><span><a href="https://wa.me/+919090814214">+91 90908 14214</a></span></i>
           </div>
           <div className="social-links d-none d-md-flex align-items-center">
             <ul>

@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/Footer.css";
 
 const Footer = () => {
@@ -16,16 +15,16 @@ const Footer = () => {
               </p>
             </div>
             <div className="social-links d-flex mt-4">
-              <a href="">
+              <a href="" target="__blank">
                 <i className="bi bi-twitter-x"></i>
               </a>
-              <a href="">
+              <a href="https://www.facebook.com/msocialman" target="__blank">
                 <i className="bi bi-facebook"></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/socialman.official" target="__blank">
                 <i className="bi bi-instagram"></i>
               </a>
-              <a href="">
+              <a href="" target="__blank">
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>
@@ -44,10 +43,10 @@ const Footer = () => {
                 <a href="/services">Services</a>
               </li>
               <li>
-                <a href="#">Terms of service</a>
+                <a href="/terms-and-conditions">Terms of service</a>
               </li>
               <li>
-                <a href="#">Privacy policy</a>
+                <a href="/privacy-policy">Privacy policy</a>
               </li>
             </ul>
           </div>
@@ -56,19 +55,19 @@ const Footer = () => {
             <h4>Our Services</h4>
             <ul>
               <li>
-                <a href="#">Web Design</a>
+                <a href="/services/web-design">Web Design</a>
               </li>
               <li>
-                <a href="#">Web Development</a>
+                <a href="/services/web-development">Web Development</a>
               </li>
               <li>
-                <a href="#">Product Management</a>
+                <a href="/services/product-management">Product Management</a>
               </li>
               <li>
-                <a href="#">Marketing</a>
+                <a href="/services/digital-marketing">Digital Marketing</a>
               </li>
               <li>
-                <a href="#">Graphic Design</a>
+                <a href="/services/graphic-design">Graphic Design</a>
               </li>
             </ul>
           </div>
@@ -87,7 +86,7 @@ const Footer = () => {
               </li>
               <li>
                 <span className="material-symbols-outlined">mail</span>
-                <p>hello.socialman@gmail.com</p>
+                <p><a href="mailto:hello.socialman@gmail.com" style={{color: "inherit"}}>hello.socialman@gmail.com</a></p>
               </li>
             </ul>
             {/* <form action="forms/newsletter.php" method="post" className="php-email-form">
@@ -110,7 +109,7 @@ const Footer = () => {
           <span>All Rights Reserved</span>
         </p>
         <div className="credits">
-          Designed by <a href="https://wise-tech.in/">wisetech</a>
+          Designed & Developed by <a href="https://wise-tech.in/">wisetech</a>
         </div>
       </div>
     </footer>
