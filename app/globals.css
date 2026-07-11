@@ -1,0 +1,319 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Work Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Fustat", sans-serif;
+  --nav-font: "Work Sans",  sans-serif;
+}
+
+/* Global Colors */
+:root { 
+  --background-color: #fff;
+  --default-color: rgba(0, 0, 0, 0.7);
+  --heading-color: #1d1d1d;
+  --accent-color: #1F75FE;
+  --contrast-color: rgba(255,255,255,0.8);
+  --white: #fefefe;
+  --black: #010101;
+  --border-radius-size: 30px;
+  --border-radius-size-sm: 20px;
+}
+
+/* Nav Menu Colors */
+:root {
+  --nav-color: rgba(255,255,255,0.8);
+  --nav-hover-color: #1F75FE;
+  --nav-dropdown-background-color: #282622;
+  --nav-dropdown-color: rgba(255,255,255,0.8);
+  --nav-dropdown-hover-color: #cb4154;
+}
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-family: var(--default-font);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none!important;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  overflow: hidden;
+  background: var(--background-color);
+  transition: all 0.6s ease-out;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #ffffff;
+  border-color: var(--accent-color) transparent var(--accent-color) transparent;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1.5s linear infinite;
+}
+
+@keyframes animate-preloader {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  background-color: var(--accent-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: var(--contrast-color);
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Global Page Titles & Breadcrumbs
+--------------------------------------------------------------*/
+.page-title {
+  color: var(--contrast-color);
+  background-color: var(--background-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 160px 0 80px 0;
+  text-align: center;
+  position: relative;
+}
+
+.page-title:before {
+  content: "";
+  background-color: color-mix(in srgb, var(--black), transparent 30%);
+  position: absolute;
+  inset: 0;
+}
+
+.page-title h1 {
+  color: var(--background-color);
+  font-size: 54px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.page-title .breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.page-title .breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.page-title .breadcrumbs ol li+li::before {
+  content: "/";
+  display: inline-block;
+  padding-right: 10px;
+  color: color-mix(in srgb, var(--contrast-color), transparent 50%);
+}
+
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 100px 0;
+  scroll-margin-top: 77px;
+  overflow: clip;
+}
+
+@media (max-width: 1199px) {
+  section,
+  .section {
+    scroll-margin-top: 60px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 800;
+  display: inline;
+  padding: 8px 16px;
+  line-height: 1px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--default-color);
+  background-color: #fff;
+  background-image: linear-gradient(#fff, #ddd);
+  border-radius: 50px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, .3);
+  position: relative;
+}
+
+.section-title h2::after, .section-title h2::before  {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  display: inline-block;
+  background: var(--accent-color);
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, .4);
+}
+.section-title h2::after{
+  margin-left: 20px;
+}
+.section-title h2::before {
+  margin-right: 20px;
+}
+
+.section-title h1 {
+  color: var(--heading-color);
+  margin: 0;
+  margin-top: 2rem;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 900;
+  font-family: var(--heading-font);
+}
+.section-title h1 span {
+  color: var(--accent-color);
+}
+
+.my-btn {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 60px;
+  transition: 0.3s;
+}
+
+.my-btn-lg {
+  padding: 15px 30px;
+}
+.my-btn:hover {
+  background-color: transparent;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+/* Disable AOS animations to prevent blank page - content always visible */
+[data-aos] {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+[data-aos-delay] {
+  transition-delay: 0 !important;
+}
+
+/* Blog Meta Styles */
+.blog .row .blog-card-content .blog-meta {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blog .row .blog-card-content .blog-date {
+    font-size: 0.85rem;
+    color: #666;
+    font-weight: 500;
+}
+.blog .row .blog-card-content .blog-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.blog .row .blog-card-content .blog-tag {
+    font-size: 0.65rem;
+    background-color: color-mix(in srgb, var(--accent-color) , transparent 80%);
+    color: var(--accent-color);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+}

@@ -1,0 +1,67 @@
+.about .content h2 {
+  font-size: 14px;
+  font-weight: 800;
+  display: inline;
+  padding: 8px 16px;
+  line-height: 1px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--default-color);
+  background-color: #fff;
+  background-image: linear-gradient(#fff, #ddd);
+  border-radius: 50px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, .3);
+  position: relative;
+}
+
+.about .content h2::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  display: inline-block;
+  background: var(--accent-color);
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, .4);
+  margin-left: 20px;
+}
+
+.about .content h1 {
+  color: var(--heading-color);
+  margin: 0;
+  margin-top: 2rem;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.about .content h1 span {
+  color: var(--accent-color);
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--accent-color);
+}
+
+.about .about-btn {
+  background: transparent;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.about .about-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
