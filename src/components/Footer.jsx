@@ -109,7 +109,7 @@ const Footer = () => {
           <span>All Rights Reserved</span>
         </p>
         <div className="credits">
-          Designed & Developed by <a href="https://wise-tech.in/">wisetech</a>
+          Designed & Developed by <a href="https://sapiora.in/">Sapiora Tech</a>
         </div>
       </div>
     </footer>
